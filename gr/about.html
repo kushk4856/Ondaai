@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Awaiken" />
+  <!-- Page Title -->
+  <title>About | Oandaai</title>
+  <!-- Favicon Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <!-- Google Fonts css-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+    rel="stylesheet" />
+  <!-- Bootstrap css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <!-- SlickNav css -->
+  <link href="css/slicknav.min.css" rel="stylesheet" />
+  <!-- Swiper css -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <!-- Font Awesome icon css-->
+  <link href="css/all.min.css" rel="stylesheet" media="screen" />
+  <!-- Animated css -->
+  <link href="css/animate.css" rel="stylesheet" />
+  <!-- Magnific css -->
+  <link href="css/magnific-popup.css" rel="stylesheet" />
+  <!-- Main custom css -->
+  <link href="css/custom.css" rel="stylesheet" media="screen" />
+  <link rel="stylesheet" href="css/translator.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="tt-magic-cursor">
+  <!-- Preloader Start -->
+  <div class="preloader">
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-icon"><img src="images/loader.svg" alt="" /></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Magic Cursor Start -->
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+  <!-- Magic Cursor End -->
+
+  <!-- Header Start -->
+  <div class="top_bar">
+    <div>Ο εμπορικός σας εταίρος </div>
+    <div>
+      <div class="language-selector" id="languageSelector">
+        <div class="selected-language" onclick="toggleDropdown()">
+            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/gr.svg" alt="Español" class="flag-icon" id="selectedFlag">
+            <span class="dropdown-arrow"></span>
+        </div>
+        <div class="dropdown-buffer"></div>
+        <div class="language-options" id="languageOptions">
+            <a href="../about.html" class="language-option" data-lang="en">
+                <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/gb.svg" alt="English" class="flag-icon">
+                <span>English</span>
+            </a>
+            <a href="../it/about.html" class="language-option" data-lang="nl">
+              <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/it.svg" alt="Italian Flag" class="flag-icon">
+                <span>Italian</span>
+            </a>
+
+            <a href="../ge/about.html" class="language-option" data-lang="nl">
+              <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/de.svg" alt="Italian Flag" class="flag-icon">
+                <span>German</span>
+            </a>
+
+            <a href="../sp/about.html" class="language-option" data-lang="nl">
+              <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/es.svg" alt="Italian Flag" class="flag-icon">
+                <span>Spanish</span>
+            </a>
+            <a href="/about.html" class="language-option" data-lang="nl">
+              <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/gr.svg" alt="Italian Flag" class="flag-icon">
+                <span>Greek</span>
+            </a>
+          
+        </div>
+    </div>
+    </div>
+  </div>
+  <header class="main-header">
+    <div class="header-sticky">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Logo Start -->
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" alt="Logo" />
+          </a>
+          <!-- Logo End -->
+
+          <!-- Main Menu start -->
+          <div class="collapse navbar-collapse main-menu">
+            <ul class="navbar-nav mr-auto" id="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Σπίτι</a>
+                <!-- <ul>
+									<li class="nav-item"><a class="nav-link" href="./">Home - Image</a>
+									</li><li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
+									<li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
+								</ul> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Σχετικά με εμάς</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Υπηρεσίες</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">Συχνές Ερωτήσεις</a>
+                <!-- <ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog-single.html">Blog Single</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="team.html">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="404.html">404</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Επαφή</a>
+              </li>
+            
+              <li class="nav-item highlighted-menu">
+                <a class="nav-link" href="#">
+                  Συνδεθείτε</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Main Menu End -->
+
+          <div class="navbar-toggle"></div>
+        </div>
+      </nav>
+
+      <div class="responsive-menu"></div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Page Header Section Start -->
+  <div class="page-header parallaxie">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Subpage Header Box Start -->
+          <div class="page-header-box">
+            <h1 class="text-anime">Σχετικά με εμάς</h1>
+            <nav class="wow fadeInUp" data-wow-delay="0.25s">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Σπίτι</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Σχετικά με εμάς
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <!-- Subpage Header Box End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Page Header Section End -->
+
+  <!-- About us Page Section Start -->
+  <div class="about-us-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Σχετικά με το Oandaai</h3>
+            <h2 class="text-anime">
+              Βοηθάμε τους ανθρώπους να επιτύχουν.
+            </h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+          <!-- About Images Start -->
+          <div class="about-images">
+            <div class="about-image">
+              <figure class="image-anime reveal">
+                <img src="images/about-us-1.jpg" alt="" />
+              </figure>
+            </div>
+
+            <div class="about-image">
+              <figure class="image-anime reveal">
+                <img src="images/about-us-2.jpg" alt="" />
+              </figure>
+
+              <figure class="image-anime reveal">
+                <img src="images/about-us-3.jpg" alt="" />
+              </figure>
+            </div>
+          </div>
+          <!-- About Images End -->
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <!-- About Content Start -->
+          <div class="about-content">
+            <div class="about-body wow fadeInUp" data-wow-delay="0.25s">
+              <p>
+                Στην Oandaai, δεσμευόμαστε να ενδυναμώνουμε τους εμπόρους με τεχνολογία αιχμής, γνώσεις ειδικών και
+απρόσκοπτη εμπειρία συναλλαγών. Η πλατφόρμα μας έχει σχεδιαστεί τόσο για αρχάριους όσο και για επαγγελματίες για μεγιστοποίηση
+τις εμπορικές τους δυνατότητες.</p>
+
+              <p>
+                Δίνουμε προτεραιότητα στην ασφάλεια, την αποτελεσματικότητα και την καινοτομία, διασφαλίζοντας ότι οι πελάτες μας συναλλάσσονται με σιγουριά. Με
+Πρόσβαση στην αγορά 24/7, δεδομένα σε πραγματικό χρόνο και χαμηλές χρεώσεις, παρέχουμε το ιδανικό περιβάλλον για επιτυχία
+συναλλαγές σε μετοχές, forex, κρυπτονομίσματα και εμπορεύματα.</p>
+            </div>
+
+            <div class="about-list-item wow fadeInUp" data-wow-delay="0.5s">
+              <ul>
+                <li>Ασφαλής και αξιόπιστη πλατφόρμα</li>
+                <li>Προηγμένα Εργαλεία Συναλλαγών</li>
+                <li>Χαμηλές προμήθειες, υψηλή ρευστότητα</li>
+                <li>Expert Market Insights</li>
+                <li>Υποστήριξη πελατών 24/7</li>
+                <li>Γρήγορη Εκτέλεση Εμπορίου</li>
+                <li>Άνοιγμα λογαριασμού χωρίς προβλήματα</li>
+                <li>Διαφορετικές Επενδυτικές Επιλογές</li>
+              </ul>
+            </div>
+
+            <div class="about-footer wow fadeInUp" data-wow-delay="0.75s">
+              <div class="about-info-item">
+                <h3>
+                  <strong><span>10</span>+</strong> Χρόνια Εμπειρίας
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- About Content End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About us Page Section End -->
+
+  <!-- Our Benefits Section Start -->
+  <div class="our-benefits">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Απρόσκοπτη εμπειρία</h3>
+            <h2 class="text-anime">Ξεκλειδώστε τις εμπορικές σας δυνατότητες</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Our Benefits Item Start -->
+          <div class="our-benefits-item wow fadeInUp" data-wow-delay="0.25s">
+            <div class="icon-box">
+              <img src="images/icon-our-benefits-1.svg" alt="" />
+            </div>
+
+            <h3>Ασφαλής πλατφόρμα</h3>
+            <p>
+              Συναλλαγείτε με σιγουριά με κορυφαία ασφάλεια και κρυπτογραφημένες συναλλαγές.
+            </p>
+          </div>
+          <!-- Our Benefits Item End -->
+        </div>
+
+        <div class="col-md-3">
+          <!-- Our Benefits Item Start -->
+          <div class="our-benefits-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="icon-box">
+              <img src="images/icon-our-benefits-2.svg" alt="" />
+            </div>
+
+            <h3>Ειδικές Πληροφορίες</h3>
+            <p>
+              Αποκτήστε πρόσβαση σε έρευνα και ανάλυση αγοράς για πιο έξυπνες αποφάσεις συναλλαγών.
+            </p>
+          </div>
+          <!-- Our Benefits Item End -->
+        </div>
+
+        <div class="col-md-3">
+          <!-- Our Benefits Item Start -->
+          <div class="our-benefits-item wow fadeInUp" data-wow-delay="0.75s">
+            <div class="icon-box">
+              <img src="images/icon-our-benefits-3.svg" alt="" />
+            </div>
+
+            <h3>Γρήγορη Εκτέλεση</h3>
+            <p>
+              Εκτελέστε συναλλαγές άμεσα με ελάχιστες καθυστερήσεις και περιορισμένα spread.
+            </p>
+          </div>
+          <!-- Our Benefits Item End -->
+        </div>
+
+        <div class="col-md-3">
+          <!-- Our Benefits Item Start -->
+          <div class="our-benefits-item wow fadeInUp" data-wow-delay="1.0s">
+            <div class="icon-box">
+              <img src="images/icon-our-benefits-4.svg" alt="" />
+            </div>
+
+            <h3>Υποστήριξη 24/7</h3>
+            <p>
+              Λάβετε βοήθεια όλο το εικοσιτετράωρο από την επαγγελματική ομάδα υποστήριξής μας.
+            </p>
+          </div>
+          <!-- Our Benefits Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Benefits Section End -->
+
+  <!-- Counter Section Start -->
+  <div class="counter-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <!-- Counter Item Start -->
+          <div class="counter-item wow fadeInUp" data-wow-delay="0.25s">
+            <h3>$<span class="counter">77.45</span>B</h3>
+            <p>Market Cap</p>
+          </div>
+          <!-- Counter Item End -->
+        </div>
+
+        <div class="col-md-3 col-6">
+          <!-- Counter Item Start -->
+          <div class="counter-item wow fadeInUp" data-wow-delay="0.5s">
+            <h3><span class="counter">165</span>k</h3>
+            <p>Καθημερινές Συναλλαγές</p>
+          </div>
+          <!-- Counter Item End -->
+        </div>
+
+        <div class="col-md-3 col-6">
+          <!-- Counter Item Start -->
+          <div class="counter-item wow fadeInUp" data-wow-delay="0.75s">
+            <h3><span class="counter">1726</span></h3>
+            <p>Ενεργός λογαριασμός</p>
+          </div>
+          <!-- Counter Item End -->
+        </div>
+
+        <div class="col-md-3 col-6">
+          <!-- Counter Item Start -->
+          <div class="counter-item wow fadeInUp" data-wow-delay="1.0s">
+            <h3><span class="counter">10</span>+</h3>
+            <p>Χρόνια στην αγορά</p>
+          </div>
+          <!-- Counter Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Counter Section End -->
+
+  <!-- Our Team Section Start -->
+  <!-- <div class="our-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> -->
+  <!-- Section Title Start -->
+  <!-- <div class="section-title">
+            <h3 class="wow fadeInUp">Our Team</h3>
+            <h2 class="text-anime">Our Crypto Exchange Experts</h2>
+          </div> -->
+  <!-- Section Title End -->
+  <!-- </div>
+      </div> -->
+
+  <!-- <div class="row">
+        <div class="col-lg-3 col-md-6"> -->
+  <!-- Team Item Start -->
+  <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.25s">
+            <div class="team-image-links"> -->
+  <!-- Team Image Start -->
+  <!-- <div class="team-image">
+                <figure>
+                  <img src="images/team-1.png" alt="" />
+                </figure>
+              </div> -->
+  <!-- Team Image End -->
+
+  <!-- Team Social Links Start -->
+  <!-- <div class="team-social-links">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div> -->
+  <!-- Team Social Links End -->
+  <!-- </div> -->
+
+  <!-- Team Info Start -->
+  <!-- <div class="team-info">
+              <h3>John Doe</h3>
+              <p>(Founder & CEO)</p>
+            </div> -->
+  <!-- Team Info End -->
+  <!-- </div> -->
+  <!-- Team Item End -->
+  <!-- </div> -->
+
+  <!-- <div class="col-lg-3 col-md-6"> -->
+  <!-- Team Item Start -->
+  <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-image-links"> -->
+  <!-- Team Image Start -->
+  <!-- <div class="team-image">
+                <figure>
+                  <img src="images/team-2.png" alt="" />
+                </figure>
+              </div> -->
+  <!-- Team Image End -->
+
+  <!-- Team Social Links Start -->
+  <!-- <div class="team-social-links">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div> -->
+  <!-- Team Social Links End -->
+  <!-- </div> -->
+
+  <!-- Team Info Start -->
+  <!-- <div class="team-info">
+              <h3>Marco Verratti</h3>
+              <p>(Senior Consultant)</p>
+            </div> -->
+  <!-- Team Info End -->
+  <!-- </div> -->
+  <!-- Team Item End -->
+  <!-- </div> -->
+
+  <!-- <div class="col-lg-3 col-md-6"> -->
+  <!-- Team Item Start -->
+  <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.75s">
+            <div class="team-image-links"> -->
+  <!-- Team Image Start -->
+  <!-- <div class="team-image">
+                <figure>
+                  <img src="images/team-3.png" alt="" />
+                </figure>
+              </div> -->
+  <!-- Team Image End -->
+
+  <!-- Team Social Links Start -->
+  <!-- <div class="team-social-links">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div> -->
+  <!-- Team Social Links End -->
+  <!-- </div> -->
+
+  <!-- Team Info Start -->
+  <!-- <div class="team-info">
+              <h3>Arita Banson</h3>
+              <p>(Creative Manager)</p>
+            </div> -->
+  <!-- Team Info End -->
+  <!-- </div> -->
+  <!-- Team Item End -->
+  <!-- </div> -->
+
+  <!-- <div class="col-lg-3 col-md-6"> -->
+  <!-- Team Item Start -->
+  <!-- <div class="team-item wow fadeInUp" data-wow-delay="1.0s">
+            <div class="team-image-links"> -->
+  <!-- Team Image Start -->
+  <!-- <div class="team-image">
+                <figure>
+                  <img src="images/team-4.png" alt="" />
+                </figure>
+              </div> -->
+  <!-- Team Image End -->
+
+  <!-- Team Social Links Start -->
+  <!-- <div class="team-social-links">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div> -->
+  <!-- Team Social Links End -->
+  <!-- </div> -->
+
+  <!-- Team Info Start -->
+  <!-- <div class="team-info">
+              <h3>Banson Doe</h3>
+              <p>(Senior Consultant)</p>
+            </div> -->
+  <!-- Team Info End -->
+  <!-- </div> -->
+  <!-- Team Item End -->
+  <!-- </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- Our Team Section End -->
+
+  <!-- Our Vision Mission Start -->
+  <div class="our-vision-mission">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Visoin Mission Item Start -->
+          <div class="vision-mission-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="vision-mission-header">
+              <div class="icon-box">
+                <img src="images/icon-mission.svg" alt="" />
+              </div>
+              <h3>Η αποστολή μας</h3>
+            </div>
+
+            <div class="vision-mission-body">
+              <p>
+                Στην Oandaai, η αποστολή μας είναι να ενδυναμώσουμε τους εμπόρους με τεχνολογία αιχμής, πληροφορίες σε πραγματικό χρόνο και
+                ασφαλής πλατφόρμα. Προσπαθούμε να δημιουργήσουμε ένα προσβάσιμο, αποτελεσματικό και διαφανές περιβάλλον συναλλαγών όπου
+                τόσο οι αρχάριοι όσο και οι επαγγελματίες μπορούν να μεγιστοποιήσουν τις δυνατότητές τους και να επιτύχουν οικονομική επιτυχία σε παγκόσμιο επίπεδο
+                αγορές.</p>
+            </div>
+          </div>
+          <!-- Visoin Mission Item End -->
+        </div>
+
+        <div class="col-md-6">
+          <!-- Visoin Mission Item Start -->
+          <div class="vision-mission-item wow fadeInUp" data-wow-delay="0.75s">
+            <div class="vision-mission-header">
+              <div class="icon-box">
+                <img src="images/icon-vision.svg" alt="" />
+              </div>
+              <h3>Το Όραμά μας</h3>
+            </div>
+
+            <div class="vision-mission-body">
+              <p>
+                Οραματιζόμαστε ένα μέλλον όπου οι συναλλαγές θα είναι απρόσκοπτες, ασφαλείς και παγκοσμίως προσβάσιμες. Ο Oandaai στοχεύει να είναι α
+                ηγετική δύναμη στις χρηματοπιστωτικές αγορές με τη συνεχή καινοτομία, τη βελτίωση της εμπειρίας των χρηστών και την παροχή
+                τα καλύτερα εργαλεία συναλλαγών. Στόχος μας είναι να διαμορφώσουμε ένα πιο έξυπνο, πιο περιεκτικό οικοσύστημα συναλλαγών για όλους
+                επενδυτές.</p>
+            </div>
+          </div>
+          <!-- Visoin Mission Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Vision Mission End -->
+
+  <!-- Testimonial Section Start -->
+  <div class="testimonials">
+    <div class="container-fluid">
+      <div class="row no-gap">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Αξιολόγηση Πελατών</h3>
+            <h2 class="text-anime">Μαρτυρίες Πελατών</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row no-gap">
+        <div class="col-md-12">
+          <!-- Testimonial Carousel Start -->
+          <div class="testimonial-carousel">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Οι συναλλαγές με την Oandaai άλλαξαν το παιχνίδι. Οι πλατφόρμες είναι έξυπνες, γεμάτες με χρήσιμα εργαλεία και η ομάδα υποστήριξης ανταποκρίνεται πάντα. Νιώθω πιο σίγουρος και ικανός να τα καταφέρω.</p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-1.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Alison Banson</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Η Oandaai έχει βελτιώσει το εμπορικό μου ταξίδι. Οι πλατφόρμες είναι εύχρηστες, γεμάτες ισχυρά εργαλεία και η ομάδα υποστήριξης είναι πάντα εκεί για να βοηθήσει. Μπορώ πλέον να συναλλάσσομαι με αυτοπεποίθηση και να πετυχαίνω αποτελεσματικά τους στόχους μου.</p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-2.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Charles Park</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Η Oandaai άλλαξε την εμπορική μου εμπειρία. Οι πλατφόρμες είναι φιλικές προς το χρήστη με ισχυρά εργαλεία και η ομάδα υποστήριξης είναι πάντα έτοιμη να βοηθήσει. Τώρα συναλλάσσομαι με αυτοπεποίθηση και πετυχαίνω τους στόχους μου με ευκολία.</p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-3.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Olivia Bartlett</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Η Oandaai έκανε τις συναλλαγές αβίαστη. Η πλοήγηση στις πλατφόρμες είναι εύκολη με όλα τα κατάλληλα εργαλεία και η ομάδα υποστήριξης είναι πάντα διαθέσιμη. Είμαι σε θέση να λαμβάνω τεκμηριωμένες αποφάσεις και να πετυχαίνω τους στόχους συναλλαγών μου.</p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-3.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Tracey Hawkins</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Η Oandaai έχει ανεβάσει την εμπορική μου εμπειρία. Οι πλατφόρμες είναι έξυπνες και εξοπλισμένες με βασικά εργαλεία, ενώ η ομάδα υποστήριξης παρέχει εξαιρετική βοήθεια. Τώρα συναλλάσσομαι με μεγαλύτερη εμπιστοσύνη.</p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-2.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Christopher Case</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Η Oandaai υπήρξε ένας εξαιρετικός συνεργάτης στο εμπορικό μου ταξίδι. Οι πλατφόρμες είναι εύχρηστες, πλούσιες σε χαρακτηριστικά και η ομάδα υποστήριξης είναι πάντα εκεί όταν χρειάζεται. Τώρα μπορώ να πάρω πιο έξυπνες αποφάσεις.</p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-2.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Edward Johns</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial Carousel End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial Section End -->
+
+  <!-- Exclusive Partners Section Start -->
+ 
+  <!-- Exclusive Partners Section End -->
+
+  <!-- Footer Start -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Footer Newsletters Start -->
+          <div class="footer-newsletters">
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- Newsletter Title Start -->
+                <div class="newsletter-title">
+                  <div class="icon-box">
+                    <img src="images/icon-stay-info.svg" alt="" />
+                  </div>
+
+                  <h2>Μείνετε ενημερωμένοι και μην χάσετε ποτέ μια ενημέρωση Oandaai!</h2>
+                </div>
+                <!-- Newsletter Title End -->
+              </div>
+
+              <div class="col-lg-6">
+                <!-- Newsletter Form Start -->
+                <div class="newsletter-form">
+                  <form id="newsletter_form" action="#" data-toggle="validator">
+                    <div class="row no-gap align-items-center">
+                      <div class="form-group col-md-8">
+                        <input type="email" name="email" class="form-control" id="news_email"
+                          placeholder="Εισαγάγετε τη διεύθυνση email σας" required="" />
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="col-md-4 text-end">
+                        <button type="submit" class="btn-default disabled">
+                          Εγγραφείτε τώρα
+                        </button>
+                        <div id="news_letter_Submit" class="h3 text-left hidden"></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- Newsletter Form End -->
+              </div>
+            </div>
+          </div>
+          <!-- Footer Newsletters End -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Copyright Footer Start -->
+          <div class="footer-copyrights">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <!-- Copyright Content Start -->
+                <div class="footer-copyright">
+                 <p>All Rights Reserved 2025-26 © Copyright - Oandaai | Developed by <a target="_blank" href="https://www.tg3agency.com/">TG3 Agency</a></p>
+                </div>
+                <!-- Copyright Content End -->
+              </div>
+
+              <div class="col-md-6">
+                <!-- Footer Policy Menu Start -->
+                <div class="footer-policy-menu">
+                  <ul>
+                    <li><a href="#">Πολιτική Απορρήτου</a></li>
+                    <li><a href="#">Όροι Χρήσης</a></li>
+                  </ul>
+                </div>
+                <!-- Footer Policy Menu End -->
+              </div>
+            </div>
+          </div>
+          <!-- Copyright Footer End -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- <div id="googleElement"></div>
+    <script defer src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate(){
+            new google.translate.TranslateElement(
+                "googleElement"
+            )
+        }
+    </script> -->
+  <!-- Footer End -->
+
+  <!-- Jquery Library File -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap js file -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Validator js file -->
+  <script src="js/validator.min.js"></script>
+  <!-- SlickNav js file -->
+  <script src="js/jquery.slicknav.js"></script>
+  <!-- Swiper js file -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!-- Counter js file -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- Magnific js file -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- SmoothScroll -->
+  <script src="js/SmoothScroll.js"></script>
+  <!-- Parallax js -->
+  <script src="js/parallaxie.js"></script>
+  <!-- MagicCursor js file -->
+  <script src="js/gsap.min.js"></script>
+  <script src="js/magiccursor.js"></script>
+  <!-- Text Effect js file -->
+  <script src="js/splitType.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <!-- YTPlayer js file -->
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <!-- Wow js file -->
+  <script src="js/wow.js"></script>
+  <!-- Main Custom js file -->
+  <script src="js/function.js"></script>
+</body>
+
+</html>

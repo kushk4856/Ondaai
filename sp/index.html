@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Awaiken" />
+  <!-- Page Title -->
+  <title>OneCity Trading</title>
+  <!-- Favicon Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <!-- Google Fonts css-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+    rel="stylesheet" />
+  <!-- Bootstrap css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <!-- SlickNav css -->
+  <link href="css/slicknav.min.css" rel="stylesheet" />
+  <!-- Swiper css -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <!-- Font Awesome icon css-->
+  <link href="css/all.min.css" rel="stylesheet" media="screen" />
+  <!-- Animated css -->
+  <link href="css/animate.css" rel="stylesheet" />
+  <!-- Magnific css -->
+  <link href="css/magnific-popup.css" rel="stylesheet" />
+  <!-- Main custom css -->
+  <link href="css/custom.css" rel="stylesheet" media="screen" />
+  <!-- translator css  -->
+  <link rel="stylesheet" href="css/translator.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="tt-magic-cursor">
+  <!-- Preloader Start -->
+  <div class="preloader">
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-icon"><img src="images/loader.svg" alt="" /></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Magic Cursor Start -->
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+  <!-- Magic Cursor End -->
+
+  <!-- Header Start -->
+  <div class="top_bar">
+    <div>Su socio comercial de confianza </div>
+    <div>
+      <div class="language-selector" id="languageSelector">
+        <div class="selected-language" onclick="toggleDropdown()">
+          <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/es.svg" alt="Español" class="flag-icon"
+            id="selectedFlag">
+          <span class="dropdown-arrow"></span>
+        </div>
+        <div class="dropdown-buffer"></div>
+        <div class="language-options" id="languageOptions">
+          <a href="../index.html" class="language-option" data-lang="en">
+            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/gb.svg" alt="English"
+              class="flag-icon">
+            <span>English</span>
+          </a>
+          <a href="../it/index.html" class="language-option" data-lang="nl">
+            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/it.svg" alt="Italian Flag"
+              class="flag-icon">
+            <span>Italian</span>
+          </a>
+
+         <!--  <a href="../ge/index.html" class="language-option" data-lang="nl">
+            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/de.svg" alt="Italian Flag"
+              class="flag-icon">
+            <span>German</span>
+          </a> -->
+          <a href="/index.html" class="language-option" data-lang="nl">
+            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/es.svg" alt="Italian Flag"
+              class="flag-icon">
+            <span>Spanish</span>
+          </a>
+
+         <!--  <a href="../gr/index.html" class="language-option" data-lang="nl">
+            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/gr.svg" alt="Italian Flag"
+              class="flag-icon">
+            <span>Greek</span>
+          </a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="main-header">
+    <div class="header-sticky">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Logo Start -->
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" alt="Logo" />
+          </a>
+          <!-- Logo End -->
+
+          <!-- Main Menu start -->
+          <div class="collapse navbar-collapse main-menu">
+            <ul class="navbar-nav mr-auto" id="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Hogar</a>
+                <!-- <ul>
+									<li class="nav-item"><a class="nav-link" href="./">Home - Image</a>
+									</li><li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
+									<li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
+								</ul> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Servicios</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">Preguntas frecuentes
+                </a>
+                <!-- <ul>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        >Blog Single</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="faq.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="404.html">404</a>
+                    </li>
+                  </ul> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+
+              <li class="nav-item highlighted-menu">
+                <a class="nav-link" href="#">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Main Menu End -->
+
+          <div class="navbar-toggle"></div>
+        </div>
+      </nav>
+
+      <div class="responsive-menu"></div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Hero Section Start -->
+  <div class="hero parallaxie">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <!-- Hero Left Content Start -->
+          <div class="hero-content">
+            <div class="section-title">
+              <h3 class="wow fadeInUp">Bienvenido a OneCity Trading</h3>
+              <h1 class="text-anime">
+                Mejore sus operaciones con <span>OneCity Trading</span>.
+              </h1>
+            </div>
+            <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
+              <p>
+                En OneCity Trading, brindamos a los traders plataformas avanzadas, activos diversos y servicios transparentes y
+                personalizados para ayudarlos a alcanzar el éxito en cada operación.
+              </p>
+            </div>
+
+            <div class="hero-content-footer wow fadeInUp" data-wow-delay="0.75s">
+              <a href="#" class="btn-default">Abrir cuenta</a>
+            </div>
+          </div>
+          <!-- Hero Left Content End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Section End -->
+
+  <!-- Coin Ticker Start -->
+  <div class="coin-ticker">
+    <div class="container-fluid">
+      <div class="row no-gap">
+        <div class="col-md-12">
+          <!-- Coin Ticker Box Start -->
+          <div class="coin-ticker-box">
+            <div class="scrolling-ticker-box">
+              <div class="scrolling-content">
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-1.svg" alt="" />
+                  </div>
+
+                  <p>Bitcoin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-2.svg" alt="" />
+                  </div>
+
+                  <p>Etherium</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-3.svg" alt="" />
+                  </div>
+
+                  <p>Tether</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-4.svg" alt="" />
+                  </div>
+
+                  <p>BNB</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-5.svg" alt="" />
+                  </div>
+
+                  <p>Solana</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-6.svg" alt="" />
+                  </div>
+
+                  <p>USD Coin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-7.svg" alt="" />
+                  </div>
+
+                  <p>Cardano</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-8.svg" alt="" />
+                  </div>
+
+                  <p>Cardano</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-9.svg" alt="" />
+                  </div>
+
+                  <p>Dogecoin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-10.svg" alt="" />
+                  </div>
+
+                  <p>Tron</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-11.svg" alt="" />
+                  </div>
+
+                  <p>Polygon</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-12.svg" alt="" />
+                  </div>
+
+                  <p>Shiba INU</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-13.svg" alt="" />
+                  </div>
+
+                  <p>Lite Coin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-14.svg" alt="" />
+                  </div>
+
+                  <p>Stacks</p>
+                </div>
+              </div>
+
+              <div class="scrolling-content">
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-1.svg" alt="" />
+                  </div>
+
+                  <p>Bitcoin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-2.svg" alt="" />
+                  </div>
+
+                  <p>Etherium</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-3.svg" alt="" />
+                  </div>
+
+                  <p>Tether</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-4.svg" alt="" />
+                  </div>
+
+                  <p>BNB</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-5.svg" alt="" />
+                  </div>
+
+                  <p>Solana</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-6.svg" alt="" />
+                  </div>
+
+                  <p>USD Coin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-7.svg" alt="" />
+                  </div>
+
+                  <p>Cardano</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-8.svg" alt="" />
+                  </div>
+
+                  <p>Cardano</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-9.svg" alt="" />
+                  </div>
+
+                  <p>Dogecoin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-10.svg" alt="" />
+                  </div>
+
+                  <p>Tron</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-11.svg" alt="" />
+                  </div>
+
+                  <p>Polygon</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-12.svg" alt="" />
+                  </div>
+
+                  <p>Shiba INU</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-13.svg" alt="" />
+                  </div>
+
+                  <p>Lite Coin</p>
+                </div>
+
+                <div class="scrolling-item">
+                  <div class="icon-box">
+                    <img src="images/icon-ticker-14.svg" alt="" />
+                  </div>
+
+                  <p>Stacks</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Coin Ticker Box End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Coin Ticker End -->
+
+  <!-- About us Section Start -->
+  <div class="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Sobre OneCity Trading</h3>
+            <h2 class="text-anime">Simple. Más rápido. Seguro.</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+          <!-- About Images Start -->
+          <div class="about-images">
+            <div class="about-image">
+              <figure class="image-anime reveal">
+                <img src="images/about-us-1.jpg" alt="" />
+              </figure>
+            </div>
+
+            <div class="about-image">
+              <figure class="image-anime reveal">
+                <img src="images/about-us-2.jpg" alt="" />
+              </figure>
+
+              <div class="about-info-item wow fadeInUp" data-wow-delay="0.5s">
+                <div class="icon-box">
+                  <img src="images/icon-bitcoin-exchange.svg" alt="" />
+                </div>
+
+                <h5>Negociación de acciones</h5>
+              </div>
+            </div>
+          </div>
+          <!-- About Images End -->
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <!-- About Content Start -->
+          <div class="about-content">
+            <div class="about-body wow fadeInUp" data-wow-delay="0.25s">
+              <p>
+                Acceda a una amplia gama de clases de activos en una sola plataforma, lo que le permitirá diversificar
+                su cartera, aprovechar nuevas oportunidades y gestionar los riesgos de manera más efectiva para una
+                experiencia comercial más inteligente.
+              </p>
+
+              <p>
+                Ya sea que esté negociando acciones de empresas globales líderes, explorando el mercado de materias
+                primas o capitalizando las fluctuaciones monetarias, FPMarketsEU ofrece acceso a una gama completa de
+                mercados para satisfacer todas sus necesidades comerciales.
+              </p>
+            </div>
+
+            <div class="about-list-item wow fadeInUp" data-wow-delay="0.5s">
+              <ul>
+                <li>Diseñado para todos</li>
+                <li>Opere sobre la marcha</li>
+                <li>Todas las herramientas que quieras</li>
+                <li>Conversión automática</li>
+                <li>Múltiples clases de activos</li>
+                <li>Sencillo de administrar</li>
+                <li>Escanear. Convertir. Pagar.</li>
+                <li>Rápido de configurar</li>
+              </ul>
+            </div>
+
+            <div class="about-footer wow fadeInUp" data-wow-delay="0.75s">
+              <a href="#" class="btn-default">Leer más</a>
+            </div>
+          </div>
+          <!-- About Content End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About us Section End -->
+
+  <!-- How It Works Section Start -->
+  <div class="how-it-works">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Cómo funciona</h3>
+            <h2 class="text-anime">Una cuenta, infinitas posibilidades</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <!-- How It Work Item Start -->
+          <div class="how-it-works-item wow fadeInUp" data-wow-delay="0.25s">
+            <div class="icon-box">
+              <img src="images/icon-how-it-work-1.svg" alt="" />
+            </div>
+
+            <h3>
+              Servicio y soporte reales</h3>
+            <p>
+              En OneCity Trading brindamos servicio y soporte de primer nivel, para que usted pueda concentrarse en operar con
+              total confianza.
+
+
+            </p>
+          </div>
+          <!-- How It Work Item End -->
+        </div>
+
+        <div class="col-md-4">
+          <!-- How It Work Item Start -->
+          <div class="how-it-works-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="icon-box">
+              <img src="images/icon-how-it-work-2.svg" alt="" />
+            </div>
+
+            <h3>
+              Rápido y transparente</h3>
+            <p>Los mercados están en constante evolución. Con OneCity Trading, aproveche las oportunidades al instante con
+              spreads bajos y condiciones claras.</p>
+          </div>
+          <!-- How It Work Item End -->
+        </div>
+
+        <div class="col-md-4">
+          <!-- How It Work Item Start -->
+          <div class="how-it-works-item wow fadeInUp" data-wow-delay="0.75s">
+            <div class="icon-box">
+              <img src="images/icon-how-it-work-3.svg" alt="" />
+            </div>
+
+            <h3>
+              Tecnología y herramientas</h3>
+            <p>En OneCity Trading, invertimos en tecnología y herramientas de primera calidad para brindar a los operadores un
+              entorno comercial óptimo.</p>
+          </div>
+          <!-- How It Work Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- How It Works Section End -->
+
+  <!-- Exclusive Partners Section Start -->
+
+  <!-- Exclusive Partners Section End -->
+
+  <!-- Our Services Section Start -->
+  <div class="our-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Nuestros Servicios</h3>
+            <h2 class="text-anime">¿Por qué elegir OneCity Trading para operar?</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
+            <div class="icon-box">
+              <img src="images/icon-our-services-1.svg" alt="" />
+            </div>
+
+            <h3>Comercio de oro</h3>
+            <p>
+              Opere en oro con información de expertos, análisis de mercado en tiempo real y transacciones seguras para
+              obtener el máximo rendimiento y estabilidad.
+            </p>
+          </div>
+          <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item active wow fadeInUp" data-wow-delay="0.5s">
+            <div class="icon-box">
+              <img src="images/icon-our-services-2.svg" alt="" />
+            </div>
+
+            <h3>Negociación de acciones</h3>
+            <p>
+              Invierta en acciones de alto rendimiento con orientación estratégica, tendencias del mercado y ejecución
+              perfecta para obtener oportunidades comerciales rentables.
+            </p>
+          </div>
+          <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
+            <div class="icon-box">
+              <img src="images/icon-our-services-3.svg" alt="" />
+            </div>
+
+            <h3>Comercio de divisas</h3>
+            <p>
+              Navegue con confianza por los mercados Forex con datos en tiempo real, estrategias expertas y plataformas
+              seguras para lograr un éxito óptimo en el comercio de divisas.
+            </p>
+          </div>
+          <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item wow fadeInUp" data-wow-delay="1.0s">
+            <div class="icon-box">
+              <img src="images/icon-our-services-4.svg" alt="" />
+            </div>
+
+            <h3>Apertura de cuenta</h3>
+            <p>
+              Comience a operar rápidamente con nuestra apertura de cuenta sin complicaciones, tarifas bajas, soporte
+              dedicado y asistencia de incorporación paso a paso.
+            </p>
+          </div>
+          <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item wow fadeInUp" data-wow-delay="1.25s">
+            <div class="icon-box">
+              <img src="images/icon-our-services-5.svg" alt="" />
+            </div>
+
+            <h3>
+              Cepo</h3>
+            <p>
+              En OneCity Trading, opere CFD sobre acciones fácilmente, tomando posiciones largas o cortas para beneficiarse de
+              los movimientos de precios, hacia arriba o hacia abajo.
+            </p>
+          </div>
+          <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <!-- Service Item Start -->
+          <div class="service-item wow fadeInUp" data-wow-delay="1.50s">
+            <div class="icon-box">
+              <img src="images/icon-our-services-6.svg" alt="" />
+            </div>
+
+            <h3>
+              Criptomonedas </h3>
+            <p>
+              Las criptomonedas han ganado una fuerte presencia en los mercados globales, con una volatilidad y liquidez
+              constantes que redefinen el futuro de la moneda.
+            </p>
+          </div>
+          <!-- Service Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Services Section End -->
+
+  <!-- Price Section Start -->
+  <div class="price-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Precio</h3>
+            <h2 class="text-anime">Explorar el precio de las acciones</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row no-gap">
+        <div class="col-md-12">
+          <!-- Price Carousel Start -->
+          <div class="price-carousel price-carousel-left">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-1.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Bitcoin</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-2.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Etherium</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-3.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Tether</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-4.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>BNB</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-5.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Solana</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-6.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>USD Coin</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-7.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Cardano</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-8.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Cardano</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-9.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Dogecoin</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-10.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Tron</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-11.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Polygon</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-12.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Shiba INU</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Price Carousel End -->
+
+          <!-- Price Carousel Start -->
+          <div class="price-carousel price-carousel-right">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-13.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Lite Coin</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-14.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Stacks</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-15.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Toncoin</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-16.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Filecoin</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-17.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Hedera</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-18.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>DigiByte</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-19.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Centrifuge</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-20.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Flux</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-21.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Compound</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-22.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Frax Share</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-23.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Gemini Dollar</h4>
+                      <p>$12.185<span class="price-green">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- price Item Start -->
+                  <div class="price-item">
+                    <div class="icon-box">
+                      <img src="images/icon-ticker-24.svg" alt="" />
+                    </div>
+
+                    <div class="price-body">
+                      <h4>Maker</h4>
+                      <p>$12.185<span class="price-red">21.30%</span></p>
+                      <a href="#" class="btn-default">Ordene ahora</a>
+                    </div>
+                  </div>
+                  <!-- Price Item End -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Price Carousel End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Price Section End -->
+
+  <!-- Intro Video Section Start -->
+  <!-- <div class="intro-video"> -->
+  <!-- <div class="container"> -->
+  <!-- <div class="row"> -->
+  <!-- <div class="col-md-12"> -->
+  <!-- Section Title Start -->
+  <!-- <div class="section-title"> -->
+  <!-- <h3 class="wow fadeInUp">Our Dashboard</h3> -->
+  <!-- <h2 class="text-anime">Watch Our Demo Video</h2> -->
+  <!-- </div> -->
+  <!-- Section Title End -->
+  <!-- </div> -->
+  <!-- </div> -->
+
+  <!-- <div class="row"> -->
+  <!-- <div class="col-md-12"> -->
+  <!-- Intro Video Box Start -->
+  <!-- <div class="intro-video-box"> -->
+  <!-- <div class="intro-video-image"> -->
+  <!-- <img src="images/video-bg.png" alt="" /> -->
+  <!-- </div> -->
+
+  <!-- <div class="video-play-button"> -->
+  <!-- <a
+                  href="https://www.youtube.com/watch?v=Y-x0efG1seA"
+                  class="popup-video"
+                > -->
+  <!-- <img src="images/play.svg" alt="" />
+                </a>
+              </div>
+            </div> -->
+  <!-- Intro Video Box End -->
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Intro Video Section End -->
+
+  <!-- Why Choose us Section Start -->
+  <div class="why-choose-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">¿Por qué elegirnos?</h3>
+            <h2 class="text-anime">Conozca más sobre OneCity Trading</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Why Choose us Item Start -->
+          <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
+            <div class="icon-box">
+              <img src="images/icon-why-choose-us-1.svg" alt="" />
+            </div>
+
+            <h3>Seguro y protegido</h3>
+            <p>
+              Opere con confianza en una plataforma que garantiza seguridad y protección.
+            </p>
+          </div>
+          <!-- Why Choose us Item End -->
+        </div>
+
+        <div class="col-md-4">
+          <!-- Why Choose us Item Start -->
+          <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="icon-box">
+              <img src="images/icon-why-choose-us-2.svg" alt="" />
+            </div>
+
+            <h3>Bono anticipado</h3>
+            <p>
+              ¡Reclame su bono anticipado y maximice su potencial comercial!
+            </p>
+          </div>
+          <!-- Why Choose us Item End -->
+        </div>
+
+        <div class="col-md-4">
+          <!-- Why Choose us Item Start -->
+          <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
+            <div class="icon-box">
+              <img src="images/icon-why-choose-us-3.svg" alt="" />
+            </div>
+
+            <h3>Varios beneficios</h3>
+            <p>
+              ¡Desbloquea múltiples oportunidades de ganancias con cada operación!
+            </p>
+          </div>
+          <!-- Why Choose us Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Why Choose us Section End -->
+
+  <!-- Download Apps Section Start -->
+  <!-- <div class="download-apps">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12"> -->
+  <!-- Download App Content Start -->
+  <!-- <div class="download-apps-content"> -->
+  <!-- Section Title Start -->
+  <!-- <div class="section-title">
+                <h3 class="wow fadeInUp">safe & secure</h3>
+                <h2 class="text-anime">Start Trading Now</h2>
+              </div> -->
+  <!-- Section Title End -->
+
+  <!-- Download App Body Start -->
+  <!-- <div
+                class="download-app-body wow fadeInUp"
+                data-wow-delay="0.25s"
+              > -->
+  <!-- <p>
+                  OneCity Trading provides all the tools you need for successful trading. Our intuitive platforms, advanced features, and dedicated support team help you make informed decisions and achieve your goals.
+                </p>
+              </div> -->
+  <!-- Download App Body End -->
+  <!-- </div> -->
+  <!-- Download App Content End -->
+  <!-- </div> -->
+
+  <!-- <div class="col-lg-3 col-md-6"> -->
+  <!-- Download App Item Start -->
+  <!-- <div class="download-app-item wow fadeInUp" data-wow-delay="0.5s">
+              <h3>Get App for IOS</h3>
+              <a href="#" class="btn-default"
+                ><i class="fa-brands fa-app-store"></i> Download Now</a
+              > -->
+
+  <!-- <div class="download-app-img">
+                <img src="images/mobile-img.png" alt="" />
+              </div>
+            </div> -->
+  <!-- Download App Item End -->
+  <!-- </div> -->
+
+  <!-- <div class="col-lg-3 col-md-6"> -->
+  <!-- Download App Item Start -->
+  <!-- <div class="download-app-item wow fadeInUp" data-wow-delay="0.75s">
+              <h3>Get App for IOS</h3>
+              <a href="#" class="btn-default"
+                ><i class="fa-brands fa-google-play"></i> Download Now</a
+              > -->
+
+  <!-- <div class="download-app-img">
+                <img src="images/mobile-img.png" alt="" />
+              </div>
+            </div> -->
+  <!-- Download App Item End -->
+  <!-- </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- Download Apps Section End -->
+
+  <!-- Crypto Calculator Section Start -->
+  <div class="crypto-calculator">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Crypto Calculator Box Start -->
+          <div class="crypto-calculator-box">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                  <h3 class="wow fadeInUp">Calculadora de acciones</h3>
+                  <h2 class="text-anime">Comprar acciones</h2>
+                </div>
+                <!-- Section Title End -->
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="crypto-form-box">
+                  <form id="CryptoCalculator" action="#" method="POST" data-toggle="validator">
+                    <div class="row no-gap">
+                      <div class="form-group col-lg-6 col-12 mb-4">
+                        <select id="cryptocurrency_dropdown" name="cryptocurrency">
+                          <option value="btc">₿ BTC</option>
+                          <option value="eth">€ ETH</option>
+                          <option value="bnb">$ BNB</option>
+                          <option value="sol">¥ SOL</option>
+                        </select>
+                        <input type="text" name="name" class="form-control" id="cryptocurrency_price"
+                          placeholder="Crypto Currencies" />
+                      </div>
+
+                      <div class="form-group col-lg-6 col-12 mb-4">
+                        <select id="moneycurrency_dropdown" name="cars">
+                          <option value="inr">₹ INR</option>
+                          <option value="euro">€ Euro</option>
+                          <option value="usd">$ USD</option>
+                          <option value="cny">¥ CNY</option>
+                        </select>
+                        <input type="text" name="name" class="form-control" id="moneycurrency_price"
+                          placeholder="Price" />
+                      </div>
+
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn-default">
+                          Calcular ahora
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Crypto Calculator Box End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Crypto Calculator Section End -->
+
+  <!-- Our Team Section Start -->
+
+  <!-- Our Team Section End -->
+
+  <!-- Testimonial Section Start -->
+  <div class="testimonials">
+    <div class="container-fluid">
+      <div class="row no-gap">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Revisión del cliente</h3>
+            <h2 class="text-anime">Testimonios de clientes</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row no-gap">
+        <div class="col-md-12">
+          <!-- Testimonial Carousel Start -->
+          <div class="testimonial-carousel">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        OneCity Trading ha transformado mi experiencia de trading. Las plataformas son fáciles de usar y cuentan
+                        con herramientas potentes, y el equipo de soporte siempre está dispuesto a ayudarte. Ahora opero
+                        con confianza y logro mis objetivos fácilmente.
+                      </p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-1.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Olivia Bartlett</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        OneCity Trading ha mejorado mi experiencia en el trading. Las plataformas son fáciles de usar, están
+                        repletas de herramientas potentes y el equipo de soporte siempre está dispuesto a ayudar. Ahora
+                        puedo operar con confianza y alcanzar mis objetivos con eficacia.
+                      </p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-2.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Charles Park</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        Operar con OneCity Trading ha sido revolucionario. Las plataformas son intuitivas, están repletas de
+                        herramientas útiles y el equipo de soporte siempre responde rápidamente. Me siento más seguro y
+                        capaz de lograr mis objetivos.
+                      </p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-3.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Alison Banson</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        OneCity Trading ha simplificado el trading. Las plataformas son fáciles de navegar y cuentan con todas
+                        las herramientas necesarias, y el equipo de soporte siempre está disponible. Puedo tomar
+                        decisiones informadas y alcanzar mis objetivos de trading.
+                      </p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-4.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Tracey Hawkins</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        OneCity Trading ha mejorado mi experiencia de trading. Las plataformas son intuitivas y están equipadas
+                        con herramientas esenciales, mientras que el equipo de soporte ofrece una asistencia excelente.
+                        Ahora opero con mayor confianza.
+                      </p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-5.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Christopher Case</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- Testimonial Item Start -->
+                  <div class="testimonial-item">
+                    <div class="testimonial-body">
+                      <p>
+                        OneCity Trading ha sido un gran aliado en mi trayectoria como trader. Las plataformas son fáciles de
+                        usar, tienen muchas funciones y el equipo de soporte siempre está disponible cuando lo necesito.
+                        Ahora puedo tomar decisiones más inteligentes.
+                      </p>
+                    </div>
+
+                    <div class="testimonial-header">
+                      <div class="author-image">
+                        <img src="images/author-6.jpg" alt="" />
+                      </div>
+
+                      <div class="author-info">
+                        <h3>Edward Johns</h3>
+                        <!-- <p>(Senior Consultant)</p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Item End -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial Carousel End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial Section End -->
+
+  <!-- Latest Posts Section Start -->
+  <div class="latest-posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Section Title Start -->
+          <div class="section-title">
+            <h3 class="wow fadeInUp">Blogs y artículos</h3>
+            <h2 class="text-anime">Nuestras últimas noticias</h2>
+          </div>
+          <!-- Section Title End -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- Post Item Start -->
+          <div class="post-item wow fadeInUp" data-wow-delay="0.25s">
+            <!-- Post Featured Image Start -->
+            <div class="post-featured-image">
+              <figure>
+                <img src="images/post-1.jpg" alt="" />
+              </figure>
+
+              <div class="post-hover-button">
+                <a href="#" class="btn-default">Leer más</a>
+              </div>
+            </div>
+            <!-- Post Featured Image End -->
+
+            <!-- Post Body Start -->
+            <div class="post-body">
+              <div class="post-meta">
+                <ul>
+                  <li>15 de marzo de 2025</li>
+                </ul>
+              </div>
+
+              <h2>
+                <a href="#">Por qué una caída en las criptomonedas es una oportunidad</a>
+              </h2>
+            </div>
+            <!-- Post Body End -->
+          </div>
+          <!-- Post Item End -->
+        </div>
+
+        <div class="col-lg-4">
+          <!-- Post Item Start -->
+          <div class="post-item wow fadeInUp" data-wow-delay="0.5s">
+            <!-- Post Featured Image Start -->
+            <div class="post-featured-image">
+              <figure>
+                <img src="images/post-2.jpg" alt="" />
+              </figure>
+
+              <div class="post-hover-button">
+                <a href="#" class="btn-default">Leer más</a>
+              </div>
+            </div>
+            <!-- Post Featured Image End -->
+
+            <!-- Post Body Start -->
+            <div class="post-body">
+              <div class="post-meta">
+                <ul>
+                  <li>15 de marzo de 2025</li>
+                </ul>
+              </div>
+
+              <h2>
+                <a href="#">Las 4 tendencias más importantes de las criptomonedas</a>
+              </h2>
+            </div>
+            <!-- Post Body End -->
+          </div>
+          <!-- Post Item End -->
+        </div>
+
+        <div class="col-lg-4">
+          <!-- Post Item Start -->
+          <div class="post-item wow fadeInUp" data-wow-delay="0.75s">
+            <!-- Post Featured Image Start -->
+            <div class="post-featured-image">
+              <figure>
+                <img src="images/post-3.jpg" alt="" />
+              </figure>
+
+              <div class="post-hover-button">
+                <a href="#" class="btn-default">Leer más</a>
+              </div>
+            </div>
+            <!-- Post Featured Image End -->
+
+            <!-- Post Body Start -->
+            <div class="post-body">
+              <div class="post-meta">
+                <ul>
+                  <li>15 de marzo de 2025</li>
+                </ul>
+              </div>
+
+              <h2>
+                <a href="#">Las 10 mejores criptomonedas que puedes minar</a>
+              </h2>
+            </div>
+            <!-- Post Body End -->
+          </div>
+          <!-- Post Item End -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Latest Posts Section End -->
+
+  <!-- Footer Start -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Footer Newsletters Start -->
+          <div class="footer-newsletters">
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- Newsletter Title Start -->
+                <div class="newsletter-title">
+                  <div class="icon-box">
+                    <img src="images/icon-stay-info.svg" alt="" />
+                  </div>
+
+                  <h2>¡Manténgase informado y nunca se pierda una actualización de OneCity Trading!</h2>
+                </div>
+                <!-- Newsletter Title End -->
+              </div>
+
+              <div class="col-lg-6">
+                <!-- Newsletter Form Start -->
+                <div class="newsletter-form">
+                  <form id="newsletter_form" action="#" data-toggle="validator">
+                    <div class="row no-gap align-items-center">
+                      <div class="form-group col-md-8">
+                        <input type="email" name="email" class="form-control" id="news_email"
+                          placeholder="Ingrese su dirección de correo electrónico" required="" />
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="col-md-4 text-end">
+                        <button type="submit" class="btn-default disabled">
+                          Suscríbete ahora
+                        </button>
+                        <div id="news_letter_Submit" class="h3 text-left hidden"></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- Newsletter Form End -->
+              </div>
+            </div>
+          </div>
+          <!-- Footer Newsletters End -->
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Copyright Footer Start -->
+          <div class="footer-copyrights">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <!-- Copyright Content Start -->
+                <div class="footer-copyright">
+                 <p>All Rights Reserved 2025-26 © Copyright - OneCity Trading | Developed by <a target="_blank" href="https://www.tg3agency.com/">TG3 Agency</a></p>
+                </div>
+                <!-- Copyright Content End -->
+              </div>
+
+              <div class="col-md-5">
+                <!-- Footer Policy Menu Start -->
+                <div class="footer-policy-menu">
+                  <ul>
+                    <li><a href="#">política de privacidad</a></li>
+                    <li><a href="#">Condiciones de uso</a></li>
+                  </ul>
+                </div>
+                <!-- Footer Policy Menu End -->
+              </div>
+            </div>
+          </div>
+          <!-- Copyright Footer End -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Footer End -->
+
+  <!-- Jquery Library File -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap js file -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Validator js file -->
+  <script src="js/validator.min.js"></script>
+  <!-- SlickNav js file -->
+  <script src="js/jquery.slicknav.js"></script>
+  <!-- Swiper js file -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!-- Counter js file -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- Magnific js file -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- SmoothScroll -->
+  <script src="js/SmoothScroll.js"></script>
+  <!-- Parallax js -->
+  <script src="js/parallaxie.js"></script>
+  <!-- MagicCursor js file -->
+  <script src="js/gsap.min.js"></script>
+  <script src="js/magiccursor.js"></script>
+  <!-- Text Effect js file -->
+  <script src="js/splitType.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <!-- YTPlayer js file -->
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <!-- Wow js file -->
+  <script src="js/wow.js"></script>
+  <!-- Main Custom js file -->
+  <script src="js/function.js"></script>
+</body>
+
+</html>
